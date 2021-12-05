@@ -1,0 +1,222 @@
+@charset "UTF-8";
+/*Colores*/
+/*Tamaños*/
+/*Colores*/
+/*Tamaños*/
+body {
+  background-color: black; }
+
+/*Menú*/
+section ul li a {
+  color: red;
+  text-decoration: none; }
+
+header nav section ul {
+  display: grid;
+  grid-template-columns: 15% 15% 15% 15% 15%; }
+
+.menu {
+  background-image: linear-gradient(to right, black, #242323, #352f2f);
+  grid-template-columns: 50% 50%;
+  display: grid; }
+  .menu li {
+    width: 50%;
+    margin: 20px;
+    padding: 5px;
+    list-style: none; }
+
+.navbar-brand{
+  color: red;
+}
+
+.customMenu{
+  background-color: black;
+}
+
+.customNav{
+  background-color: black!important;
+}
+
+/*Logo*/
+.menu__img {
+  width: 70px;
+  height: auto; 
+}
+
+.menu__img:hover {
+  transform: rotate(20deg); }
+
+/*Titulo*/
+h1 {
+  color: red;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 40px; }
+
+div em {
+  color: chocolate; }
+
+div label {
+  color: peru; }
+
+div select option {
+  color: saddlebrown; }
+
+/*Banner*/
+.banner__img {
+  width: 100%;
+  height: auto;
+  margin-top: 95px;
+}
+
+/*Carrousel*/
+.image-responsive {
+  width: 100%;
+  height: auto;
+  padding: 0px 40px 0px 40px;
+}
+
+/*Info principal*/
+
+.infoPrincipal {
+  grid-area: textVideo1;
+  font-size: x-large;
+  color: #f3f0ed;
+  text-align: center;
+  padding: 50px;
+}
+
+/*Integrantes*/
+
+.Integrantes h1{ 
+  text-align: center;
+  margin: 50px 0px 50px 0px;
+}
+
+.Integrantes__tarjeta
+{ 
+  background-color: black;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.Integrantes h5{
+ color: white;  
+}
+
+.Integrantes p
+{
+  color: white;
+}
+
+.custombutton {
+  background-color: red !important;
+  border-color: black !important;
+  color: black;
+  font-weight: 500;
+}
+
+/*Discografia*/
+
+.Discografia{ 
+  margin-top: 130px;
+}
+
+.Discografia h1{ 
+  text-align: center;
+  margin: 50px 0px 50px 0px;
+}
+
+.Discografia__tarjeta
+{ 
+  background-color: black;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.Discografia h5{
+ color: white;  
+}
+
+.Discografia p
+{
+  color: white;
+}
+
+/*Giras*/
+
+.Giras h1 {
+  margin-top: 130px;
+  text-align: center;
+}
+
+.Giras p {
+  color: white;
+  text-align: center;
+}
+
+/*Merch*/
+
+.Shop{ 
+  margin-top: 130px;
+}
+
+.Shop h1{ 
+  text-align: center;
+  margin: 50px 0px 50px 0px;
+}
+
+.Shop__tarjeta
+{ 
+  background-color: black;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.Shop h5{
+ color: white;  
+}
+
+.Shop p
+{
+  color: white;
+}
+
+/*Modal*/
+
+.biografia {
+  background-color: black;
+  color: white;
+}
+
+.biografia button{
+  background-color: red !important;
+  border-color: black !important;
+  color: black;
+  font-weight: 500;
+}
+
+/*Pie de página*/
+.pieDePagina {
+  background-image: linear-gradient(to right, black, rgb(36, 35, 35), rgb(53, 47, 47));
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+.pieDePagina__imagenesFooter
+{
+  margin-right: 20px;
+  margin-top: 20px;
+}
+
+.pieDePagina__imagenesFooter img{
+  width: 50px;
+  margin: 0px 50px 0px 0px;
+}
+
+.pieDePagina__copyright
+{
+  color: red;
+  margin-left: 60px;  
+}
+
